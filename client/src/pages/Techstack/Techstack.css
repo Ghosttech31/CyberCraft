@@ -1,0 +1,108 @@
+.techstack {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.techstack h1 {
+  margin-left: 150px;
+  font-size: 900;
+  font-weight: bolder;
+  color: #138781;
+}
+
+.techstack .card {
+  text-align: center;
+  border-radius: 4px;
+  width: 90px;
+  box-shadow: #494949;
+  border: 1px solid rgb(229, 226, 226);
+  cursor: pointer;
+}
+.dude {
+  margin-left: 130px;
+  display: grid;
+  grid-template-columns: 30px 30px 30px 30px 30px;
+  grid-template-rows: 80px 80px 80px 80px;
+  padding: 50px 50px;
+  align-items: grid;
+  justify-content: space-evenly;
+  grid-row-gap: 3px;
+}
+.techstack .tech-icon {
+  margin-top: 10px;
+  font-size: 2.2rem;
+  margin-right: 7px;
+}
+
+.techstack p {
+  margin-left: 150px;
+}
+.techstack .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: #138781;
+  color: white;
+
+  transition: 1s;
+}
+
+/* =============================== */
+@media (max-width: 600px) {
+  .techstack {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 10px;
+  }
+
+  .techstack hr {
+    width: 280px;
+  }
+  .dude {
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px;
+    padding: 1px 1px;
+    grid-column-gap: 0px;
+  }
+  .techstack h1 {
+    margin-left: 15px;
+    font-size: 900;
+    font-weight: bolder;
+    color: #138781;
+  }
+  .techstack .card {
+    border-radius: 4px;
+    width: 80px;
+    box-shadow: #494949;
+    border: 1px solid rgb(229, 226, 226);
+    cursor: pointer;
+  }
+  .techstack .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #138781;
+    color: white;
+
+    transition: 1s;
+  }
+  .techstack .tech-icon {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    margin-left: 20px;
+    margin-right: 1px;
+  }
+  .techstack p {
+    font-size: 14px;
+    margin-left: 30px;
+  }
+  .media-body {
+    font-size: 10px;
+    padding: 1px 20px;
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,58 @@
+.sidebar-section {
+  display: flex;
+  background-image: url("https://media3.giphy.com/media/26FPKhUtNG3TW74f6/giphy.webp?cid=ecf05e47gnt330wf82qb19j40by8p0m095958848xk3xayl1&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+  background-size: cover;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #1e1e2c;
+  width: 90px;
+  position: fixed;
+}
+.sidebar-toggle {
+  width: 200px;
+}
+.sidebar-toggle-icons {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  cursor: pointer;
+}
+.sidebar-toggle-icons p svg {
+  background-color: #000000;
+  color: white;
+  margin-top: 10px;
+}
+
+/* ==== MOBILE VIEW ========== */
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+  .sidebar-section {
+    background-image: url("https://media3.giphy.com/media/26FPKhUtNG3TW74f6/giphy.webp?cid=ecf05e47gnt330wf82qb19j40by8p0m095958848xk3xayl1&ep=v1_gifs_search&rid=giphy.webp&ct=g");
+    background-size: cover;
+    width: 400px;
+  }
+  .sidebar {
+    height: 100vh;
+    background-color: #1e1e2c;
+    width: 90px;
+    position: fixed;
+  }
+  .sidebar-toggle {
+    width: 100px;
+  }
+  .sidebar-toggle-icons {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+  }
+  .sidebar-toggle-icons p svg {
+    background-color: #000000;
+    color: white;
+    margin-top: 10px;
+  }
+}

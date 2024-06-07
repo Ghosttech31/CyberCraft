@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-right: 10px;
+  }
+  .footer {
+    margin: 0;
+    padding: 0;
+  }
+}
